@@ -5,13 +5,14 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import './App.css';
+import Resume from './components/pages/Resume';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Portfolio />
+        <Resume />
       </header>
     </div>
   );
