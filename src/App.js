@@ -6,16 +6,9 @@ import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import './App.css';
 import Resume from './components/pages/Resume';
+import PortfolioContainer from './components/PortfolioContainer';
+import Wrapper from './components/Wrapper/index';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Resume />
-      </header>
-    </div>
-  );
-}
+const App = () => <Wrapper><PortfolioContainer /></Wrapper>;
 
 export default App;
