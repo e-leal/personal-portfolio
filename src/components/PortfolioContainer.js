@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import '../App.css';
+import Wrapper from './Wrapper/index';
 import {Card, Container} from 'react-bootstrap';
 
 function PortfolioContainer(){
@@ -27,10 +28,10 @@ function PortfolioContainer(){
     };
 
     return (
-        <Container>
+        <Wrapper>
             <NavTabs currentTab={currentTab} handleTabChange={handleTabChange} />
-            <Container>{renderTab(currentTab)}</Container>
-        </Container>
+            <Wrapper>{renderTab(currentTab)}</Wrapper>
+        </Wrapper>
     );
 }
 

@@ -1,12 +1,18 @@
 import React, {useState} from 'react';
 import resume_pdf from '../../documents/E-Leal-Resume.PDF'
+import Wrapper from '../Wrapper/index';
+
+
 
 function Resume(){
     return(
-        <div>
+        <Wrapper>
+            <div className="container">
             <h2>Resume</h2>
             <p>Download my <a href={resume_pdf}>resume</a></p>
+            </div>
             <br />
+            <div className="container">
             <h3>Languages</h3>
             <ul>
                 <li>ReactJS</li>
@@ -19,7 +25,9 @@ function Resume(){
                 <li>HTML</li>
                 <li>CSS</li>
             </ul>
+            </div>
             <br />
+            <div className="container">
             <h3>Other Skills</h3>
             <ul>
                 <li>Software Documentation</li>
@@ -28,7 +36,8 @@ function Resume(){
                 <li>Unix/Linux</li>
                 <li>Git</li>
             </ul>
-        </div>
+            </div>
+        </Wrapper>
     );
 }
 
