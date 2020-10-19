@@ -29,7 +29,9 @@ function PortfolioContainer(){
 
     return (
         <Wrapper>
+            <Wrapper className="">
             <NavTabs currentTab={currentTab} handleTabChange={handleTabChange} />
+            </Wrapper>
             <Wrapper>{renderTab(currentTab)}</Wrapper>
         </Wrapper>
     );

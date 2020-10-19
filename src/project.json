@@ -1,38 +1,32 @@
 [
     {
         "id": 1,
-        "title": "SpongeBob",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "proj_type": "Fry Cook"
+        "title": "Red Bag",
+        "image": "./src/images/RedBag-Screenshot.png",
+        "proj_type": "Express.js / Node.js"
       },
       {
         "id": 2,
-        "title": "Mr. Krabs",
-        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-        "proj_type": "Restaurant Owner"
+        "title": "Worth My Time",
+        "image": "./src/images/WorthMyTime_Screenshot.png",
+        "proj_type": "API"
       },
       {
         "id": 3,
-        "title": "Squidward",
+        "title": "Book Search Engine",
         "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-        "proj_type": "Cashier"
+        "proj_type": "MERN stack"
       },
       {
         "id": 4,
-        "title": "Dexter",
-        "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-        "proj_type": "Boy Genius"
+        "title": "Run Buddy",
+        "image": "./src/images/RunBuddy-Screenshot.png",
+        "proj_type": "HTML / CSS"
       },
       {
         "id": 5,
-        "title": "Courage",
-        "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-        "proj_type": "A Cowardly Dog"
-      },
-      {
-        "id": 6,
-        "title": "Doug Funnie",
-        "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-        "proj_type": "Student"
+        "title": "Horiseon",
+        "image": "./src/Horiseon_Screenshot2.png",
+        "proj_type": "HTML / CSS"
       }
 ]
