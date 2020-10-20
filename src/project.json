@@ -2,13 +2,13 @@
     {
         "id": 1,
         "title": "Red Bag",
-        "image": "./src/images/RedBag-Screenshot.png",
+        "image": "/images/RedBag-Screenshot.png",
         "proj_type": "Express.js / Node.js"
       },
       {
         "id": 2,
         "title": "Worth My Time",
-        "image": "./src/images/WorthMyTime_Screenshot.png",
+        "image": "/images/WorthMyTime_Screenshot.png",
         "proj_type": "API"
       },
       {
@@ -20,13 +20,13 @@
       {
         "id": 4,
         "title": "Run Buddy",
-        "image": "./src/images/RunBuddy-Screenshot.png",
+        "image": "/images/RunBuddy-Screenshot.png",
         "proj_type": "HTML / CSS"
       },
       {
         "id": 5,
         "title": "Horiseon",
-        "image": "./src/Horiseon_Screenshot2.png",
+        "image": "/images/Horiseon_Screenshot2.png",
         "proj_type": "HTML / CSS"
       }
 ]
