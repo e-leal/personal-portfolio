@@ -50,7 +50,7 @@ function Portfolio (){
         <h1 className="title">Project List</h1>
             { projectList.map(
                 proj => (
-                        <Project project={proj}/>
+                        <Project key={proj.id} project={proj}/>
                 )
               )
             }
