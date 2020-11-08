@@ -3,14 +3,16 @@ import {Card, Container} from 'react-bootstrap';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+function Project({project}){
+    const { title, image, project_type} = project;
+    console.log("our project object is: ", project)
 
-function Project(props){
     return (
-        <div className="card bg-dark">
-            <img className="card-img img-container" alt={props.title} src={props.image} />
+        <div className="project">
+            <img className="project-bg" alt={`${title}`} src={`/../src/assets${image}` } />
             <div className="card-img-overlay">
-                <h5 className="card-title">{props.title}</h5>
-                <p className="card-text">{props.project_type}</p>
+                <h5 className="card-title">{title}</h5>
+                <p className="card-text">{project_type}</p>
             </div>
         </div>
     );

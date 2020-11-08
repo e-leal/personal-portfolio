@@ -10,20 +10,47 @@ import Wrapper from '../Wrapper/index';
 
 function Portfolio (){
     
-    const [projectList, setProjectList] = useState(projects);
+    const [projectList] = useState([
+        {
+            id: 1,
+            title: "Red Bag",
+            image: "/RedBag-Screenshot.png",
+            proj_type: "Express.js / Node.js"
+          },
+          {
+            id: 2,
+            title: "Worth My Time",
+            image: "/WorthMyTime_Screenshot.png",
+            proj_type: "API"
+          },
+          {
+            id: 3,
+            title: "Book Search Engine",
+            image: "/WorthMyTime_Screenshot.png",
+            proj_type: "MERN stack"
+          },
+          {
+            id: 4,
+            title: "Run Buddy",
+            image: "/RunBuddy-Screenshot.png",
+            proj_type: "HTML / CSS"
+          },
+          {
+            id: 5,
+            title: "Horiseon",
+            image: "/Horiseon_Screenshot2.png",
+            proj_type: "HTML / CSS"
+          }
+    ]);
+        
+    
 
     return (
         <Wrapper>
         <h1 className="title">Project List</h1>
             { projectList.map(
                 proj => (
-                        <Project
-                            key={proj.id}
-                            id={proj.id}
-                            title={proj.title}
-                            image={proj.image}
-                            project_type={proj.proj_type}
-                        />
+                        <Project project={proj}/>
                 )
               )
             }

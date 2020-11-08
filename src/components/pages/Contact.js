@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Container, InputGroup, FormControl} from 'react-bootstrap';
+import {Card, Button, Form, Container, InputGroup, FormControl} from 'react-bootstrap';
 
 const Contact = () => (
     <Container>
@@ -13,13 +13,27 @@ const Contact = () => (
             aria-describedby="inputGroup-sizing-default"
             />
         </InputGroup>
-        <label htmlFor="name">Name: </label>
-        <input type="text" id="name" name="name"></input>
-        <label htmlFor="email">Email: </label>
-        <input type="email" id="email" name="email"></input>
-        <label htmlFor="message">Message: </label>
-        <input type="textarea" id="message" name="message"></input>
-        <button type="submit">Submit</button>
+        <InputGroup className="mb-3">
+            <InputGroup.Prepend>
+                <InputGroup.Text>Email</InputGroup.Text>
+            </InputGroup.Prepend>
+            <FormControl 
+            aria-label="email" 
+            aria-describedby="inputGroup-sizing-default"
+             />
+        </InputGroup>
+        <InputGroup className="mb-3">
+            <InputGroup.Prepend>
+                <InputGroup.Text>Message</InputGroup.Text>
+            </InputGroup.Prepend>
+            <FormControl
+            as="textarea"
+            aria-label="message"
+            aria-describedby="inputGroup-sizing-default"
+            />
+        </InputGroup>
+        
+        <Button type="submit">Submit</Button>
     </Container>
 );
 
