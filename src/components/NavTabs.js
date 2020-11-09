@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function NavTabs(props) {
   const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs row">
       {tabs.map(tab => (
         <li className="nav-item" key={tab}>
           <a

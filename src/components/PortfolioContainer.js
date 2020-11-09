@@ -28,12 +28,10 @@ function PortfolioContainer(){
     };
 
     return (
-        <Wrapper>
-            <Wrapper className="">
+        <Container>
             <NavTabs currentTab={currentTab} handleTabChange={handleTabChange} />
-            </Wrapper>
             <Wrapper>{renderTab(currentTab)}</Wrapper>
-        </Wrapper>
+        </Container>
     );
 }
 
