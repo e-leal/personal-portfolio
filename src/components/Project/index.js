@@ -9,7 +9,7 @@ function Project({project}){
 
     return (
         <div className="project">
-            <img className="project-bg" alt={`${title}`} src={`/../src/assets${image}` } />
+            <img className="project-bg" alt={`${title}`} src={require(`../../assets/${image}.png`) } />
             <div className="card-img-overlay">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{project_type}</p>

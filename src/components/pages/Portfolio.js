@@ -14,31 +14,31 @@ function Portfolio (){
         {
             id: 1,
             title: "Red Bag",
-            image: "/RedBag-Screenshot.png",
+            image: "RedBag-Screenshot",
             proj_type: "Express.js / Node.js"
           },
           {
             id: 2,
             title: "Worth My Time",
-            image: "/WorthMyTime_Screenshot.png",
+            image: "WorthMyTime_Screenshot",
             proj_type: "API"
           },
           {
             id: 3,
             title: "Book Search Engine",
-            image: "/WorthMyTime_Screenshot.png",
+            image: "WorthMyTime_Screenshot",
             proj_type: "MERN stack"
           },
           {
             id: 4,
             title: "Run Buddy",
-            image: "/RunBuddy-Screenshot.png",
+            image: "RunBuddy-Screenshot",
             proj_type: "HTML / CSS"
           },
           {
             id: 5,
             title: "Horiseon",
-            image: "/Horiseon_Screenshot2.png",
+            image: "Horiseon_Screenshot2",
             proj_type: "HTML / CSS"
           }
     ]);
