@@ -6,7 +6,7 @@ const About = () => (
     <Container>
         <h1>About Me</h1>
         <p>
-            Pariatur incididunt enim sit anim eiusmod esse id cillum. Exercitation laboris nisi ad nostrud quis aute duis consequat aute eu. Fugiat id aliqua culpa sint aliqua ad cillum excepteur. Aute ad consectetur pariatur dolor duis incididunt.
+        I'm an enthusiastic system engineer eager to contribute to team success through hard work, attention to detail and excellent organizational and communication skills. Clear understanding of changepoint management and error troubleshooting and training in web development technologies. Motivated to learn, grow and excel in system development.
         </p>
     </Container>
 );
