@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import resume_pdf from '../../documents/E-Leal-Resume.PDF'
+import resume_pdf from '../../documents/Elyssa_Leal_Resume_21.PDF'
 import Wrapper from '../Wrapper/index';
 
 
